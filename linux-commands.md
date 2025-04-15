@@ -100,6 +100,8 @@
 ### Additional Commands
 
 #### File & Directory Management
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `tree`       | Display directory tree                | `-L`, `-d`, `-a`, `--noreport`                       |
 | `readlink`   | Resolve symbolic links                | `-f`, `-e`, `-n`                                     |
 | `realpath`   | Show absolute path                    | `--relative-to`, `--canonicalize-existing`           |
@@ -107,6 +109,8 @@
 | `xargs`      | Build and execute command lines       | `-n`, `-d`, `-0`, `-I{}`                              |
 
 #### Text Processing
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `paste`      | Merge lines of files                  | `-d`, `-s`                                           |
 | `rev`        | Reverse lines                         | —                                                   |
 | `column`     | Format output into columns            | `-t`, `-s`, `-n`                                     |
@@ -114,6 +118,8 @@
 | `split`      | Split file into pieces                | `-b`, `-l`, `-d`, `--additional-suffix`              |
 
 #### System Information & Monitoring
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `dmesg`      | Print kernel ring buffer messages     | `-T`, `--level`, `--color`                          |
 | `uptime`     | Show system uptime                    | —                                                   |
 | `whoami`     | Show current username                 | —                                                   |
@@ -121,6 +127,8 @@
 | `watch`      | Periodically run a command            | `-n`, `-d`, `-t`                                     |
 
 #### Networking & Internet
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `telnet`     | Terminal-based network protocol tool  | `host`, `port`                                      |
 | `ftp`        | File transfer protocol client         | `open`, `put`, `get`, `bye`                         |
 | `nc`         | Netcat - arbitrary TCP/UDP tool       | `-l`, `-p`, `-v`, `-z`, `-n`                         |
@@ -128,12 +136,16 @@
 | `ipcalc`     | Display IP information from CIDR      | —                                                   |
 
 #### Package Management
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `apt-cache`  | Get package info (Debian/Ubuntu)      | `search`, `show`, `depends`, `rdepends`             |
 | `rpm`        | Red Hat package manager               | `-i`, `-q`, `-e`, `-V`                               |
 | `zypper`     | openSUSE package manager              | `install`, `remove`, `info`, `update`               |
 | `brew`       | macOS/Linux Homebrew                  | `install`, `search`, `update`, `list`               |
 
 #### Development Tools
+| **Command** | **Use**                             | **Common Parameters**                                 |
+|-------------|--------------------------------------|--------------------------------------------------------|
 | `ldd`        | Show shared libraries                 | `ldd <binary>`                                      |
 | `nm`         | List symbols from object files        | `-g`, `-n`, `-u`                                     |
 | `objdump`    | Display information from binary files | `-d`, `-x`, `-s`, `-t`                               |
